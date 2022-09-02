@@ -1,0 +1,100 @@
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Helvetica", "Lucida Grande", sans-serif;
+    width: 80%;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #3d3d3d;
+}
+
+.titulo {
+    padding: 10px;
+    font-size: 32px;
+    background-color: #E1EDF2;
+}
+
+.subtitulo {
+    border-bottom: 2px solid black;
+}
+
+
+figure {
+    max-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    padding: 15px;
+    margin: 30px;
+}
+
+figcaption {
+    margin-top: 10px;
+}
+
+.matriz-musicdot {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.familia {
+    width: 275px;
+    float: right;
+}
+
+figure img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: disc
+}
+
+ol {
+    list-style-type: upper-alpha;
+}
+
+.contato_subtitulo {
+    display: inline;
+}
+
+.contato_secao {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 16px ;
+}
+
+.contato_secao--telefone {
+    margin-left: 32px;
+}
+.contato_info {
+    margin: 16px 0 24px;
+    padding-left: 22px;
+}
+
+.contato_info-titulo, .contato_info-descricao {
+    display: inline;
+
+}
+
+.contato_info-descricao {
+    margin-left: 10px;
+}
+
+.rodape {
+    padding: 1.75em 0;
+    font-size: 1.1rem;
+}
+
+.rodape_logo {
+    width: 6em;
+}
+
+.rodape_copyright {
+    display: inline;
+    margin-left: 1em;
+}
